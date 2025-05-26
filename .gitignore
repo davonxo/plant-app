@@ -1,1 +1,41 @@
+# Node modules
 node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output folders (if you build your app later)
+dist/
+build/
+
+# Electron cache and user data
+*.asar
+*.cache
+
+# Environment variables (if you use a .env file)
+.env
+
+# IDE/editor folders (add yours if needed)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac system files
+.DS_Store
+
+# Linux system files
+.Trash-*
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
