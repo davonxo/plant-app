@@ -25,11 +25,11 @@ function drawGarden() {
       // Draw 16x16 sprite centered on some tiles
       if ((x + y) % 3 === 0) {
         ctx.drawImage(
-          seedlingImg,
-          x * tileSize + offset,
-          y * tileSize + offset,
-          SPRITE_SIZE,
-          SPRITE_SIZE
+        seedlingImg,
+        x * tileSize,
+        y * tileSize,
+        tileSize,
+        tileSize
         );
       }
     }

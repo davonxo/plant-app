@@ -7,8 +7,25 @@ body {
     image-rendering: pixelated;
     text-align: center;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, p {
     margin: 0.5em;
+    color: darkslategray;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* optional: hide scrollbars */
+}
+
+#gardenCanvas {
+  flex-grow: 1; /* take all remaining vertical space */
+  width: 100vw; /* full viewport width */
+  /* height will be set dynamically by JS */
+  border: 2px solid #333;
 }
